@@ -18,4 +18,4 @@ COPY bot/ /app
 WORKDIR /app
 
 # Run sample_bot.py when the container launches, you should replace it with your program
-ENTRYPOINT ["python3", "drive.py"]
+ENTRYPOINT ["python3", "bot.py"]
